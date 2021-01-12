@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A1690EC823D55D29831518 /* Pods_RewardsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CB38512A05779B1763A72 /* Pods_RewardsApp.framework */; };
+		FD64F8B725A83F0500F9E081 /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64F8B525A83F0500F9E081 /* Rewards.swift */; };
+		FD64F8BB25A83F4000F9E081 /* RewardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64F8BA25A83F4000F9E081 /* RewardsViewModel.swift */; };
+		FDB4044925A6EF3C002661CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB4044725A6EF3C002661CE /* Main.storyboard */; };
+		FDB4044B25A6EF3D002661CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB4044A25A6EF3D002661CE /* Assets.xcassets */; };
+		FDB4044E25A6EF3D002661CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB4044C25A6EF3D002661CE /* LaunchScreen.storyboard */; };
+		FDB4045B25A6F038002661CE /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB4045825A6F038002661CE /* RewardViewController.swift */; };
+		FDB4046125A6F055002661CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB4045F25A6F055002661CE /* AppDelegate.swift */; };
+		FDB4046225A6F055002661CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB4046025A6F055002661CE /* SceneDelegate.swift */; };
+		FDB4046625A6F070002661CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB4046525A6F070002661CE /* Constants.swift */; };
+		FDB4046925A6F07A002661CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB4046825A6F07A002661CE /* Extensions.swift */; };
+		FDCDAE9625A8BDBF00E35F40 /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCDAE9525A8BDBF00E35F40 /* RewardView.swift */; };
+		FDCDAE9925A8BDC900E35F40 /* RewardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCDAE9825A8BDC900E35F40 /* RewardView.xib */; };
+		FDEFF17525A9716800DFA8A2 /* AlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEFF17425A9716800DFA8A2 /* AlertUtils.swift */; };
+		FDEFF17F25A9887300DFA8A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEFF17E25A9887300DFA8A2 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188CB38512A05779B1763A72 /* Pods_RewardsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B0171FB45C2DE008C028F7 /* Pods-RewardsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardsApp.release.xcconfig"; path = "Target Support Files/Pods-RewardsApp/Pods-RewardsApp.release.xcconfig"; sourceTree = "<group>"; };
+		B0CD6B7451B088D977EBAF08 /* Pods-RewardsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardsApp.debug.xcconfig"; path = "Target Support Files/Pods-RewardsApp/Pods-RewardsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FD64F8B525A83F0500F9E081 /* Rewards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
+		FD64F8BA25A83F4000F9E081 /* RewardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewModel.swift; sourceTree = "<group>"; };
+		FDB4043E25A6EF3C002661CE /* RewardsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB4044825A6EF3C002661CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB4044A25A6EF3D002661CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB4044D25A6EF3D002661CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB4044F25A6EF3D002661CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB4045825A6F038002661CE /* RewardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
+		FDB4045F25A6F055002661CE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB4046025A6F055002661CE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDB4046525A6F070002661CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FDB4046825A6F07A002661CE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FDCDAE9525A8BDBF00E35F40 /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		FDCDAE9825A8BDC900E35F40 /* RewardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RewardView.xib; sourceTree = "<group>"; };
+		FDE469C325A84D0E00CABD34 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEFF17425A9716800DFA8A2 /* AlertUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtils.swift; sourceTree = "<group>"; };
+		FDEFF17E25A9887300DFA8A2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB4043B25A6EF3C002661CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A1690EC823D55D29831518 /* Pods_RewardsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49069D33A0E18752CCAB367E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE469C325A84D0E00CABD34 /* SDWebImage.framework */,
+				188CB38512A05779B1763A72 /* Pods_RewardsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DECF4B83D920254FBD796F7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0CD6B7451B088D977EBAF08 /* Pods-RewardsApp.debug.xcconfig */,
+				43B0171FB45C2DE008C028F7 /* Pods-RewardsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD64F8B025A83E0E00F9E081 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				FD64F8B425A83F0500F9E081 /* Models */,
+				FD64F8B625A83F0500F9E081 /* ViewModels */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		FD64F8B425A83F0500F9E081 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD64F8B525A83F0500F9E081 /* Rewards.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD64F8B625A83F0500F9E081 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FD64F8BA25A83F4000F9E081 /* RewardsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FDB4043525A6EF3C002661CE = {
+			isa = PBXGroup;
+			children = (
+				FDB4044025A6EF3C002661CE /* RewardsApp */,
+				FDB4043F25A6EF3C002661CE /* Products */,
+				DECF4B83D920254FBD796F7A /* Pods */,
+				49069D33A0E18752CCAB367E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB4043F25A6EF3C002661CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB4043E25A6EF3C002661CE /* RewardsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB4044025A6EF3C002661CE /* RewardsApp */ = {
+			isa = PBXGroup;
+			children = (
+				FDB4045E25A6F055002661CE /* AppDelegates */,
+				FDB4045A25A6F038002661CE /* Core */,
+				FDEFF17325A9715600DFA8A2 /* Utils */,
+				FD64F8B025A83E0E00F9E081 /* DataStructures */,
+				FDB4045725A6F038002661CE /* ViewControllers */,
+				FDB4045925A6F038002661CE /* Views */,
+				FDB4044725A6EF3C002661CE /* Main.storyboard */,
+				FDB4044A25A6EF3D002661CE /* Assets.xcassets */,
+				FDB4044C25A6EF3D002661CE /* LaunchScreen.storyboard */,
+				FDB4044F25A6EF3D002661CE /* Info.plist */,
+			);
+			path = RewardsApp;
+			sourceTree = "<group>";
+		};
+		FDB4045725A6F038002661CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDB4045825A6F038002661CE /* RewardViewController.swift */,
+				FDEFF17E25A9887300DFA8A2 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FDB4045925A6F038002661CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDCDAE9525A8BDBF00E35F40 /* RewardView.swift */,
+				FDCDAE9825A8BDC900E35F40 /* RewardView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDB4045A25A6F038002661CE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FDB4046525A6F070002661CE /* Constants.swift */,
+				FDB4046825A6F07A002661CE /* Extensions.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FDB4045E25A6F055002661CE /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				FDB4045F25A6F055002661CE /* AppDelegate.swift */,
+				FDB4046025A6F055002661CE /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		FDEFF17325A9715600DFA8A2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FDEFF17425A9716800DFA8A2 /* AlertUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB4043D25A6EF3C002661CE /* RewardsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB4045225A6EF3D002661CE /* Build configuration list for PBXNativeTarget "RewardsApp" */;
+			buildPhases = (
+				36728BCBEE60D2EC8E4C3C8E /* [CP] Check Pods Manifest.lock */,
+				FDB4043A25A6EF3C002661CE /* Sources */,
+				FDB4043B25A6EF3C002661CE /* Frameworks */,
+				FDB4043C25A6EF3C002661CE /* Resources */,
+				9A28E679C5A649E747E67451 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RewardsApp;
+			productName = RewardsApp;
+			productReference = FDB4043E25A6EF3C002661CE /* RewardsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB4043625A6EF3C002661CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FDB4043D25A6EF3C002661CE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FDB4043925A6EF3C002661CE /* Build configuration list for PBXProject "RewardsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB4043525A6EF3C002661CE;
+			productRefGroup = FDB4043F25A6EF3C002661CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB4043D25A6EF3C002661CE /* RewardsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB4043C25A6EF3C002661CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB4044E25A6EF3D002661CE /* LaunchScreen.storyboard in Resources */,
+				FDB4044B25A6EF3D002661CE /* Assets.xcassets in Resources */,
+				FDB4044925A6EF3C002661CE /* Main.storyboard in Resources */,
+				FDCDAE9925A8BDC900E35F40 /* RewardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36728BCBEE60D2EC8E4C3C8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RewardsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A28E679C5A649E747E67451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RewardsApp/Pods-RewardsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RewardsApp/Pods-RewardsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RewardsApp/Pods-RewardsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB4043A25A6EF3C002661CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB4046925A6F07A002661CE /* Extensions.swift in Sources */,
+				FDB4046225A6F055002661CE /* SceneDelegate.swift in Sources */,
+				FD64F8BB25A83F4000F9E081 /* RewardsViewModel.swift in Sources */,
+				FDCDAE9625A8BDBF00E35F40 /* RewardView.swift in Sources */,
+				FDB4046125A6F055002661CE /* AppDelegate.swift in Sources */,
+				FDEFF17F25A9887300DFA8A2 /* HomeViewController.swift in Sources */,
+				FDEFF17525A9716800DFA8A2 /* AlertUtils.swift in Sources */,
+				FDB4045B25A6F038002661CE /* RewardViewController.swift in Sources */,
+				FDB4046625A6F070002661CE /* Constants.swift in Sources */,
+				FD64F8B725A83F0500F9E081 /* Rewards.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDB4044725A6EF3C002661CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB4044825A6EF3C002661CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB4044C25A6EF3D002661CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB4044D25A6EF3D002661CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB4045025A6EF3D002661CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB4045125A6EF3D002661CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB4045325A6EF3D002661CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CD6B7451B088D977EBAF08 /* Pods-RewardsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GASUMU5798;
+				INFOPLIST_FILE = RewardsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhh.rewardsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "NovoEd Development Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB4045425A6EF3D002661CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B0171FB45C2DE008C028F7 /* Pods-RewardsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GASUMU5798;
+				INFOPLIST_FILE = RewardsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhh.rewardsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "NovoEd Development Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB4043925A6EF3C002661CE /* Build configuration list for PBXProject "RewardsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB4045025A6EF3D002661CE /* Debug */,
+				FDB4045125A6EF3D002661CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB4045225A6EF3D002661CE /* Build configuration list for PBXNativeTarget "RewardsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB4045325A6EF3D002661CE /* Debug */,
+				FDB4045425A6EF3D002661CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB4043625A6EF3C002661CE /* Project object */;
+}
